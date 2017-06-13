@@ -1,0 +1,36 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>UEditor</title>
+<script type="text/javascript" charset="utf-8"  src="ueditor/editor_config.js"></script>
+<script type="text/javascript" charset="utf-8"  src="ueditor/editor_ui_all_min.js"></script>
+<link type="text/css" href="ueditor/themes/default/ueditor.css"  rel="stylesheet" />
+<script type="text/javascript" src="../../js/RTE_RES.JS"></script>
+<script type="text/javascript" src="../../js/RTE.JS"></script>
+
+</head>
+<body>
+<textarea id="editor"></textarea>
+<script type="text/javascript" charset="utf-8">
+	var editor = new baidu.editor.ui.Editor({
+		id:'editor',
+		minFrameHeight: 180,
+		UEDITOR_HOME_URL:'ueditor/'//,
+		//toolbars:[['Undo','Redo','Bold','Italic','Underline','StrikeThrough','Superscript','Subscript']]
+	});
+	editor.render();
+</script>
+	<SCRIPT>
+	    var L_DEFAULTHTML_TEXT
+	    L_DEFAULTHTML_TEXT="<DIV></DIV>";
+		window.onload	= _initEditor;
+		function _drawIE4Focus() {
+			if (isIE4)
+				document.write("<INPUT TYPE=textbox STYLE=\"width:0;height:0;left:0;position:absolute\"  VALUE=\"Ray\">Ray");
+
+		}
+		//cbMode.checked = true;
+	</SCRIPT>
+</body>
+</html>

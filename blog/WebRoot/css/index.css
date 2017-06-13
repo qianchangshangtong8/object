@@ -1,0 +1,148 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+    font: 16px "SimSun";
+    color: #111111;
+    padding-bottom: 0px;
+    margin: 0px;
+    padding-top: 0px;
+    /* background-color: #fff;
+    background-image: url('../image/bg22.jpg'); */
+    height: 640px;
+    /* width: 1200px; */
+}
+
+p {
+    font: 16px "SimSun";
+    color: #111111
+}
+
+th {
+    font: 16px "SimSun";
+    color: #111111
+}
+
+td {
+    font: 16px "SimSun";
+    color: #111111
+}
+
+input {
+    font: 16px "SimSun";
+    color: #111111
+}
+
+select {
+    font: 16px "SimSun";
+    color: #111111
+}
+
+textarea {
+    font: 16px "SimSun";
+    color: #111111
+}
+
+ul {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    padding-top: 0px
+}
+
+dl {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    padding-top: 0px
+}
+
+ol {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    padding-top: 0px
+}
+
+form {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    padding-top: 0px
+}
+
+ul li {
+    list-style: none;
+}
+
+ol li {
+    list-style: none;
+}
+
+dl dt {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    padding-top: 0px
+}
+
+table {
+    text-align: left;
+}
+
+p {
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+    line-height: 18px;
+    padding-top: 0px
+}
+
+hr {
+    border-right: #000 0px solid;
+    border-top: #d1d7dc 1px solid;
+    border-left: #000 0px solid;
+    border-bottom: #000 0px solid;
+    height: 0px
+}
+
+img {
+    border-top: -WIDTH: 0px;
+    border-left: -WIDTH: 0px;
+    border-bottom: -WIDTH: 0px;
+    border-right: -WIDTH: 0px
+}
+
+address {
+    font-style: normal
+}
+
+em {
+    font-style: normal
+}
+
+a:link {
+    color: #04d;
+    text-decoration: none
+}
+
+a:visited {
+    color: #04d;
+    text-decoration: none
+}
+
+a:hover {
+    color: #f50;
+    text-decoration: underline
+}
+
+a:active {
+    color: #f50
+}

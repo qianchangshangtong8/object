@@ -1,0 +1,95 @@
+ #reblog{
+        width: 1300px;
+        height: 400px;
+        margin: 0 auto;
+        border-bottom: 1px dotten red;
+        margin-top:40px;
+        overflow: hidden;
+        zoom: 1;
+    }
+    #reblogleft{
+        float: right;
+        width: 690px;
+        height: 360px;
+       /*  border: 1px solid blue; */
+        padding-bottom:5px;
+        margin-bottom:5px;
+/*         border-bottom: 2px solid #3e3e3e;
+ */    }
+    #reblogright{
+        float: left;
+         width: 600px;
+        height: 360px;
+        /* border: 1px solid green; */
+    }
+
+.photos{
+    width: 690px;
+    height: 120px;
+
+}
+.tenblog{
+    width: 135px;
+    height: 60px;
+    float: left;
+    padding-left:5px;
+
+}
+#leftbottom{
+	border-top: 2px solid #3e3e3e; 
+	width:690px;
+	height:160px;
+}
+
+#leftbottom ul{
+	width:690px;
+	/* height:160px; */
+	
+}
+#leftbottom ul li{
+	width:225px;
+	height:80px;
+	padding-top:5px;
+	float:left;
+	padding:5px;
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+#bottom3 {
+    height: 60px;
+    width: 100%;
+    margin: 0 auto;
+    border-top: 2px solid #3e3e3e;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-top:100px;
+}
+#bottom3 ul{
+	overflow:hidden;
+	zoom:1;
+	width:460px;
+	height:20px;
+	margin:0 auto;
+	margin-bottom:2px;
+}
+#bottom3 ul li{
+	float:left;
+	padding-left:2px;
+	width:150px;
+	height:20px;
+}
+
+

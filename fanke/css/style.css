@@ -435,11 +435,45 @@ body {
     width: 722px;
     height: 470px;
     /* background:red; */
-    display: inline-block;
+  /*   display: inline-block; */
     margin-left: 10px;
-    border: 0px solid #333;
+   /*  border: 0px solid #333; */
+   position: relative;
 }
 
+#menu_in .menu_middle img{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#menu_in .menu_middle div{
+    overflow: hidden;
+    float: left;
+    bottom: 0;
+    position: absolute;
+}
+#menu_in .menu_middle div a {
+    padding: 5px 15px;
+    width: 144px;
+    text-align: center;
+    background-color: #444444;
+    color: #FFFFFF;
+    display: inline-block;
+    height: 32px;
+    float: left;
+    margin-right: 1px;
+}
+#menu_in .menu_middle  div a.light{
+    color: #FFFFFF;
+}
+#menu_in .menu_middle div  a em{
+    cursor: pointer;
+    display: block;
+    height: 16px;
+    overflow: hidden;
+    width: 144px;
+}
 
 /* 右边区域 */
 
